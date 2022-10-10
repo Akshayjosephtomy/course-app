@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 
 const appRoutes:Routes=[
   {
-    path:"",component:NavbarComponent
-  }
+    path:"",component:AddcourseComponent
+  },
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    AddcourseComponent
   ],
   imports: [
     BrowserModule,
