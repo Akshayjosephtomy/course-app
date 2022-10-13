@@ -6,7 +6,7 @@ import { ApiService } from '../api.service';
   templateUrl: './viewcourse.component.html',
   styleUrls: ['./viewcourse.component.css']
 })
-export class ViewallcourseComponent implements OnInit {
+export class ViewcourseComponent implements OnInit {
 
   constructor(private myapi:ApiService) {
     this.fetchData()
